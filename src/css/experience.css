@@ -1,0 +1,22 @@
+.container-experience {
+    background-image: url("../../public/assets/background3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    box-shadow: inset 0 0 40px -20px #000000;
+}
+
+.title-experience {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 45px;
+    padding: 6rem;
+}
+
+.experiences {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

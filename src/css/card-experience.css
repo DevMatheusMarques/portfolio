@@ -1,0 +1,24 @@
+.card-container {
+    display: flex;
+    padding: 4rem;
+}
+
+.icon-experience {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.skills {
+    width: 700px;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: #6f5a8b;
+    color: #FFFFFF;
+}
+
+.topics {
+    padding: 2rem;
+    border-bottom: 2px solid #cbcbcb;
+}
+
+
