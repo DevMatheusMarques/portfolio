@@ -1,0 +1,75 @@
+.main-container {
+    background-image: url("../../public/assets/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    height: 100vh;
+}
+
+.container-logo {
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+
+.logo {
+    width: 250px;
+}
+
+.container-information {
+    width: 635px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.container-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title {
+    font-size: 75px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.subtitle {
+    font-size: 30px;
+    color: #cda3ff;
+    text-align: center;
+}
+
+.btn-contact-wpp {
+    width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #b7c9b7;
+    color: #0b670b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon-wpp {
+    width: 20px;
+    padding-right: 10px;
+}
+
+.link {
+    text-decoration: none;
+}
