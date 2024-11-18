@@ -1,0 +1,17 @@
+.title-projects-vue {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 45px;
+    padding: 6rem;
+}
+
+.projects-vue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+a {
+    text-decoration: none !important;
+}
