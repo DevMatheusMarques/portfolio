@@ -7,7 +7,7 @@ function Header() {
             <section>
                 <div className={"main-container"}>
                     <div className={"container-logo"}>
-                        <img src="../../../public/assets/logo2.png" alt="Logo Dev Matheus" className={"logo"}/>
+                        <img src="/assets/logo2.png" alt="Logo Dev Matheus" className={"logo"}/>
                     </div>
                     <header className={"container-header"}>
                         <div className={"container-information"}>
@@ -29,7 +29,7 @@ function Header() {
                             </div>
                         </div>
                         <div>
-                            <img src="../../../public/assets/my-photo.png" alt="Foto Dev Matheus Marques" className={"photo"}/>
+                            <img src="/assets/my-photo.png" alt="Foto Dev Matheus Marques" className={"photo"}/>
                         </div>
                     </header>
                 </div>

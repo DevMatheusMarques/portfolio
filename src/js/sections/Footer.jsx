@@ -13,7 +13,7 @@ function Footer() {
                                 <p>Minha Rede Social:</p>
                                 <div className={"social-network"}>
                                     <button type={"button"} className={"btn-contact"}>
-                                        <img src="../../../public/assets/icons/linkedin-brands-solid.svg"
+                                        <img src="/assets/icons/linkedin-brands-solid.svg"
                                              alt="Linkedin Logo"
                                              className={"contact-icon"}/>
                                         <a href="https://www.linkedin.com/in/matheus-henrique-couto-marques/"
@@ -26,7 +26,7 @@ function Footer() {
                                 <p>Meu repositório:</p>
                                 <div className={"social-network"}>
                                     <button type={"button"} className={"btn-contact"}>
-                                        <img src="../../../public/assets/icons/square-github-brands-solid.svg"
+                                        <img src="/assets/icons/square-github-brands-solid.svg"
                                              alt="Linkedin Logo"
                                              className={"contact-icon"}/>
                                         <a href="https://github.com/DevMatheusMarques" className={"contact-link"}>Matheus

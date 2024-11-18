@@ -6,9 +6,9 @@ function Experience() {
 
     const titleServices = "Serviços";
 
-    const svgSkills = "../../../public/assets/icons/gears-solid.svg";
+    const svgSkills = "/assets/icons/gears-solid.svg";
 
-    const svgServices = "../../../public/assets/icons/code-solid.svg";
+    const svgServices = "/assets/icons/code-solid.svg";
 
     const skills = [
         "Domínio de Tecnologias Frontend",
