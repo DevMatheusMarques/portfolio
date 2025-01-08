@@ -1,6 +1,6 @@
 .container-card {
-    width: 400px;
-    height: 450px;
+    width: 300px;
+    height: 350px;
     font-size: 25px;
     border-radius: 20px;
     background-color: #eb9d80;
@@ -19,8 +19,8 @@
 }
 
 .card-image {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     position: relative;
     bottom: 50%;
@@ -40,7 +40,7 @@
 
 .card-title {
     text-align: justify;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 
 }
@@ -48,5 +48,46 @@
 .card-description {
     padding: 2rem;
     text-align: justify;
-    font-size: 22px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-card {
+        width: 300px;
+        height: 320px;
+    }
+    .card-image {
+        width: 150px;
+        height: 150px;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .card-description {
+        font-size: 15px;
+    }
+    .card-text {
+        bottom: 15%;
+    }
+}
+
+/* Tablets entre 601px a 1024px */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container-card {
+        width: 400px;
+        height: 400px;
+    }
+    .card-image {
+        width: 200px;
+        height: 200px;
+    }
+    .card-title {
+        font-size: 25px;
+    }
+    .card-description {
+        font-size: 20px;
+    }
+    .card-text {
+        bottom: 15%;
+    }
 }

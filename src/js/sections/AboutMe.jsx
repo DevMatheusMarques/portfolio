@@ -8,7 +8,7 @@ function AboutMe() {
                 <div className={"container-apresentation"}>
                     <div className={"container-info"}>
                         <div>
-                            <img src="/assets/phrase.png" alt="Foto Dev Matheus Marques"/>
+                            <img src="/assets/phrase.png" alt="Foto Dev Matheus Marques" className={"phrase"}/>
                         </div>
                         <div className={"container-description"}>
                             <p className={"description"}>

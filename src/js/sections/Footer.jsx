@@ -1,4 +1,5 @@
 import "../../css/footer.css"
+import Button from "../components/Button.jsx";
 
 function Footer() {
 
@@ -6,53 +7,48 @@ function Footer() {
         <>
             <section>
                 <div className={"container-footer"}>
-                    <div className={"footer-info"}>
-                        <p className={"footer-title"}>A inovação é codificada em cada linha. O futuro começa agora!</p>
-                        <div className={"container-contact"}>
-                            <div className={"contact"}>
-                                <p>Minha Rede Social:</p>
-                                <div className={"social-network"}>
-                                    <button type={"button"} className={"btn-contact"}>
-                                        <img src="/assets/icons/linkedin-brands-solid.svg"
-                                             alt="Linkedin Logo"
-                                             className={"contact-icon"}/>
-                                        <a href="https://www.linkedin.com/in/matheus-henrique-couto-marques/"
-                                           className={"contact-link"}>Matheus
-                                            Marques</a>
-                                    </button>
+                    <div>
+                        <div className={"footer-info"}>
+                            <p className={"footer-title"}>A inovação é codificada em cada linha. O futuro começa agora!</p>
+                            <div className={"container-contact"}>
+                                <div className={"contact"}>
+                                    <p>Rede Social:</p>
+                                    <div className={"social-network"}>
+                                        <Button
+                                            href={"https://www.linkedin.com/in/matheus-henrique-couto-marques/"}
+                                            iconClass={"contact-icon"}
+                                            iconAlt={"Linkedin Logo"}
+                                            buttonText={"Matheus Marques"}
+                                            iconSrc={"/assets/icons/linkedin-brands-solid.svg"}
+                                            buttonClass={"btn-contact"}
+                                        />
+                                    </div>
+                                </div>
+                                <div className={"contact"}>
+                                    <p>Repositório:</p>
+                                    <div className={"social-network"}>
+                                        <Button
+                                            href={"https://github.com/DevMatheusMarques"}
+                                            iconClass={"contact-icon"}
+                                            iconAlt={"GitHub Logo"}
+                                            buttonText={"Matheus Marques"}
+                                            iconSrc={"/assets/icons/square-github-brands-solid.svg"}
+                                            buttonClass={"btn-contact"}
+                                        />
+                                    </div>
+                                </div>
+                                <div className={"contact"}>
+                                    <p>Meu E-mail:</p>
+                                    <Button
+                                        href={"https://mail.google.com/mail/?view=cm&fs=1&to=estudosfatecmhcm@gmail.com&su=Interesse%20em%20seu%20Portfólio&body=Olá%2C%20Matheus!%0A%0AGostei%20de%20seu%20portfólio%20e%20gostaria%20de%20discutir%20uma%20possível%20contratação.%20Abaixo%20estão%20algumas%20informações%20sobre%20meu%20contato%20e%20vaga%3A%0A%0A-%20Nome%3A%20[nome]%0A-%20Empresa%3A%20[nome]%0A-%20Detalhes%20da%20vaga%3A%20[descreva%20brevemente]%0A%0AAguardo%20seu%20retorno!%0A%0AAtenciosamente%2C%0A[Nome%20do%20remetente]"}
+                                        buttonText={"Enviar E-mail"}
+                                        iconSrc={"/assets/icons/envelope-solid.svg"}
+                                        iconAlt={"Icone Whatsapp"}
+                                        iconClass={"icon-wpp"}
+                                        buttonClass={"btn-contact"}
+                                    />
                                 </div>
                             </div>
-                            <div className={"contact"}>
-                                <p>Meu repositório:</p>
-                                <div className={"social-network"}>
-                                    <button type={"button"} className={"btn-contact"}>
-                                        <img src="/assets/icons/square-github-brands-solid.svg"
-                                             alt="Linkedin Logo"
-                                             className={"contact-icon"}/>
-                                        <a href="https://github.com/DevMatheusMarques" className={"contact-link"}>Matheus
-                                            Marques</a>
-                                    </button>
-                                </div>
-                            </div>
-                            <div className={"contact"}>
-                                <p>Contate-me:</p>
-                                <a href="https://api.whatsapp.com/send/?phone=18981886018" className={"link"}>
-                                    <button type={"button"} className={"btn-contact-wpp"}>
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                             viewBox="0 0 448 512" className={"icon-wpp"}>
-                                            <path fill="#0b670b"
-                                                  d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
-                                        </svg>
-                                        Fale comigo
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
-                        <div className={"contact"}>
-                            <p>E-mail de Contato:</p>
-                            <a href="https://api.whatsapp.com/send/?phone=18981886018" className={"link, email"}>
-                                estudosfatecmhcm@gmail.com
-                            </a>
                         </div>
                     </div>
                 </div>

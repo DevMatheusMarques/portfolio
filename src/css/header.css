@@ -4,72 +4,122 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
-
 .container-header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20rem;
+    gap: 3rem;
     height: 100vh;
-}
+    overflow: hidden;
+    padding: 2rem;
 
+}
 .container-logo {
     padding-top: 30px;
     padding-left: 30px;
-
 }
-
 .logo {
     width: 250px;
 }
-
 .container-information {
-    width: 635px;
+    width: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5rem;
 }
-
 .container-title {
+
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-
 .title {
     font-size: 75px;
     font-weight: bold;
     color: #FFFFFF;
 }
-
 .subtitle {
     font-size: 30px;
     color: #cda3ff;
     text-align: center;
 }
-
-.btn-contact-wpp {
-    width: 300px;
-    padding: 20px;
-    border-radius: 30px;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #b7c9b7;
-    color: #0b670b;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.icon-wpp {
-    width: 20px;
-    padding-right: 10px;
-}
-
 .link {
     text-decoration: none;
+}
+.photo {
+    height: 450px;
+}
+
+/* Celulares até 600px */
+@media only screen and (max-width: 600px) {
+    .container-header {
+        flex-direction: column;
+        padding-top: 2rem;
+        gap: 3rem;
+    }
+    .photo {
+        height: 300px;
+    }
+    .container-information {
+        width: 300px;
+        gap: 3rem;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .subtitle {
+        font-size: 20px;
+    }
+    .btn-contact-wpp {
+        width: 200px;
+        font-size: 15px;
+    }
+    .container-logo {
+        display: none;
+    }
+    .container-title {
+        gap: 1rem;
+    }
+    .photo {
+        height: 350px;
+    }
+}
+
+/* Tablets entre 601px a 1024px */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container-header {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .container-information {
+        width: 600px;
+        gap: 5rem;
+    }
+    .title {
+        font-size: 70px;
+    }
+    .subtitle {
+        font-size: 35px;
+    }
+    .btn-contact-wpp {
+        width: 400px;
+        font-size: 35px;
+    }
+    .icon-wpp {
+        width: 30px;
+        padding-right: 10px;
+    }
+    .container-logo {
+        display: none;
+    }
+    .container-title {
+        gap: 1rem;
+    }
+    .photo {
+        padding-top: 3rem;
+        height: 500px;
+    }
 }

@@ -25,14 +25,6 @@ function ProjectsReact() {
                                 src={"/assets/AppFinancas.png"}
                             />
                         </a>
-                        <a href="https://devmatheusmarques-lib-commerce.vercel.app/">
-                            <CardProject
-                                title={"Lib Commerce"}
-                                description={"Plataforma de e-commerce que utiliza uma API para exibir produtos, permitindo acessar seus detalhes e informações completas."}
-                                src={"/assets/LibCommerce.png"}
-                            />
-                        </a>
-
                     </div>
                 </div>
             </section>

@@ -9,7 +9,7 @@
 }
 
 .skills {
-    width: 700px;
+    width: 400px;
     font-size: 25px;
     border-radius: 20px;
     background-color: #6f5a8b;
@@ -19,6 +19,42 @@
 .topics {
     padding: 2rem;
     border-bottom: 2px solid #cbcbcb;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .skills {
+        width: 300px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .topics {
+        padding: 1rem;
+    }
+    .icon-experience {
+        width: 20px;
+    }
+}
+/* Tablets entre 601px a 1024px */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .card-container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .skills {
+        width: 300px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .topics {
+        padding: 1rem;
+    }
+    .icon-experience {
+        width: 20px;
+    }
 }
 
 

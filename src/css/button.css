@@ -1,0 +1,38 @@
+.btn-contact-wpp {
+    width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #b7c9b7;
+    color: #0b670b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.icon-wpp {
+    width: 20px;
+    padding-right: 10px;
+}
+
+.btn-contact {
+    width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #cda3ff;
+    color: #22014D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contact-icon {
+    width: 20px;
+    padding-right: 10px;
+}

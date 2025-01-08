@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     box-shadow: inset 0 0 40px -20px #000000;
 }
 
@@ -17,6 +17,29 @@
 
 .experiences {
     display: flex;
-    align-items: center;
     justify-content: center;
+}
+
+/* Celulares até 600px */
+@media only screen and (max-width: 600px) {
+    .container-experience {
+        height: 100%;
+    }
+    .title-experience {
+        font-size: 25px;
+        padding: 2rem;
+    }
+    .experiences {
+        flex-direction: column;
+    }
+}
+/* Tablets entre 601px a 1024px */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container-experience {
+        height: 100%;
+    }
+    .title-experience {
+        font-size: 50px;
+        padding: 2rem;
+    }
 }
