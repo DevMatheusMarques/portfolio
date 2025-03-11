@@ -264,6 +264,7 @@ const handleSubmit = async () => {
 </script>
 
 <style>
+@import "tailwindcss";
 html {
   scroll-behavior: smooth;
 }
