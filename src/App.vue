@@ -32,12 +32,13 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-20 bg-[#2B2B2B]">
+    <section id="sobre mim" class="py-20 bg-[#2B2B2B]">
       <div class="container mx-auto px-6">
         <h2 class="text-3xl font-bold mb-12 text-center">Sobre Mim</h2>
         <div class="max-w-3xl mx-auto text-center">
           <p class="text-[#8B8A91] mb-8">
-            Com experiência em desenvolvimento, sou especialista em criar sites e sistemas bonitos e funcionais que entregam resultados. Minha abordagem combina criatividade com conhecimento técnico para construir soluções que se destacam no cenário digital.
+            Com experiência em desenvolvimento, sou especialista em criar sites e sistemas bonitos e funcionais que entregam resultados. Minha abordagem combina criatividade com conhecimento técnico para construir soluções que se destacam no cenário digital.<br>
+            Possuo conhecimento em diversas tecnologias como Java (Spring Boot), JavaScript (Vue.js, React.js, Angular), PHP (Laravel), MySQL, MongoDB, Docker, AWS, metodologias ágeis (Scrum) e controle de versão (Git).
           </p>
           <a href="/docs/000001Currículo%20-%20Matheus%20Henrique%20Couto%20Marques.pdf" download="Currículo - Matheus Marques">
             <button class="px-8 py-3 bg-[#BCE7FD] text-[#1E1E1E] rounded-full font-semibold hover:bg-opacity-90 transition-all cursor-pointer">
@@ -49,7 +50,7 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-20">
+    <section id="serviços" class="py-20">
       <div class="container mx-auto px-6">
         <h2 class="text-3xl font-bold mb-12 text-center">Serviços</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -66,7 +67,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-20 bg-[#2B2B2B]">
+    <section id="projetos" class="py-20 bg-[#2B2B2B]">
       <div class="container mx-auto px-6">
         <h2 class="text-3xl font-bold mb-12 text-center">Projetos</h2>
         <div class="hidden md:flex justify-center gap-4 mb-12">
@@ -98,7 +99,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-20">
+    <section id="contato" class="py-20">
       <div class="container mx-auto px-6">
         <h2 class="text-3xl font-bold mb-12 text-center">Entre em contato comigo por Whatsapp</h2>
         <form @submit.prevent="handleSubmit" class="max-w-2xl mx-auto">
