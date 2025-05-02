@@ -89,8 +89,8 @@
               <h3 class="text-xl font-semibold mb-2">{{ project.title }}</h3>
               <p class="text-[#8B8A91] mb-4">{{ project.category }}</p>
             </div>
-            <a :href="project.link" class="text-[#BCE7FD] hover:underline cursor-pointer">
-              <img :src="project.image" :alt="project.title"
+            <a :href="project.link" target="_blank" rel="noopener noreferrer" class="text-[#BCE7FD] hover:underline cursor-pointer">
+            <img :src="project.image" :alt="project.title"
                    class="w-full h-64 object-cover" />
             </a>
           </div>
@@ -183,6 +183,12 @@ interface Project {
 }
 
 const projects: Project[] = [
+  {
+    title: 'HealthSync Agendamentos',
+    category: 'Desenvolvimento',
+    image: '/assets/health-sync-agendamentos.png?height=400&width=600',
+    link: 'https://healthsyncagendamentos.vercel.app/'
+  },
   {
     title: 'Cardápio Online',
     category: 'Desenvolvimento',
