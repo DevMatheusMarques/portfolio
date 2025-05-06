@@ -190,6 +190,12 @@ const projects: Project[] = [
     link: 'https://healthsyncagendamentos.vercel.app/'
   },
   {
+    title: 'Gerador de Currículos',
+    category: 'Desenvolvimento',
+    image: '/assets/resume-generator.png?height=400&width=600',
+    link: 'https://resume-generator-rho-seven.vercel.app/'
+  },
+  {
     title: 'Cardápio Online',
     category: 'Desenvolvimento',
     image: '/assets/cardapio-online.png?height=400&width=600',
