@@ -208,12 +208,6 @@ const projects: Project[] = [
     link: 'https://devmatheusmarques-cookin-up.vercel.app/'
   },
   {
-    title: 'Página de Produto',
-    category: 'Desenvolvimento',
-    image: '/assets/anuncio-fone.png?height=400&width=600',
-    link: 'https://devmatheusmarques-website-announcement-headset.vercel.app/'
-  },
-  {
     title: 'Movies Lib',
     category: 'Desenvolvimento',
     image: '/assets/movies-lib.png?height=400&width=600',
@@ -224,6 +218,18 @@ const projects: Project[] = [
     category: 'Desenvolvimento',
     image: '/assets/controle-financeiro.png?height=400&width=600',
     link: 'https://devmatheusmarques-controle-financeiro.vercel.app/'
+  },
+  {
+    title: 'Jogo da Memória',
+    category: 'Desenvolvimento',
+    image: '/assets/memory-game.png?height=400&width=600',
+    link: 'https://memory-game-iota-coral.vercel.app/'
+  },
+  {
+    title: 'Página de Produto',
+    category: 'Desenvolvimento',
+    image: '/assets/anuncio-fone.png?height=400&width=600',
+    link: 'https://devmatheusmarques-website-announcement-headset.vercel.app/'
   },
   {
     title: 'MegManicure',
