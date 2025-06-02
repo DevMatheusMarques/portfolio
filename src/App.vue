@@ -190,6 +190,12 @@ const projects: Project[] = [
     link: 'https://healthsyncagendamentos.vercel.app/'
   },
   {
+    title: 'Portal de Consulta a CNPJ',
+    category: 'Desenvolvimento',
+    image: '/assets/portal-consulta-cnpj.png?height=400&width=600',
+    link: 'https://portal-consulta-cnpj.vercel.app/'
+  },
+  {
     title: 'MMStore',
     category: 'Desenvolvimento',
     image: '/assets/mmstore.png?height=400&width=600',
