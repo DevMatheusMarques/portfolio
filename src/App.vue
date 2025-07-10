@@ -88,6 +88,7 @@
             <div class="text-center">
               <h3 class="text-xl font-semibold mb-2">{{ project.title }}</h3>
               <p class="text-[#8B8A91] mb-4">{{ project.category }}</p>
+              <p class="text-[#8B8A91] mb-4 text-justify">{{ project.description }}</p>
             </div>
             <a :href="project.link" target="_blank" rel="noopener noreferrer" class="text-[#BCE7FD] hover:underline cursor-pointer">
             <img :src="project.image" :alt="project.title"
@@ -178,6 +179,7 @@ const services: Service[] = [
 interface Project {
   title: string;
   category: string;
+  description: string;
   image: string;
   link: string;
 }
@@ -186,47 +188,83 @@ const projects: Project[] = [
   {
     title: 'HealthSync Agendamentos',
     category: 'Desenvolvimento',
+    description: 'Pensado para clínicas e consultórios que desejam organizar atendimentos, pacientes e profissionais da saúde de forma intuitiva, centralizada e moderna.',
     image: '/assets/health-sync-agendamentos.png?height=400&width=600',
     link: 'https://healthsyncagendamentos.vercel.app/'
   },
   {
+    title: 'Calculadora Pro',
+    category: 'Desenvolvimento',
+    description: 'Simule, compare e tome decisões melhores com mais de 25 calculadoras inteligentes divididas em três categorias essenciais: Trabalhista | Financeira Pessoal | Planejamento Profissional.',
+    image: '/assets/calculadora-pro.png?height=400&width=600',
+    link: 'https://calculator-pro-dmm.vercel.app/signin'
+  },
+  {
+    title: 'Hours PJ Tracker',
+    category: 'Desenvolvimento',
+    description: 'Hours PJ Tracker permite que profissionais autônomos ou terceirizados tenham controle total sobre suas jornadas de trabalho, com filtros inteligentes e exportação de relatórios.',
+    image: '/assets/hours-pj-tracker.png?height=400&width=600',
+    link: 'https://hours-pj-tracker.vercel.app/'
+  },
+  {
+    title: 'Aplicativo de Planejamento de Viagens',
+    category: 'Desenvolvimento',
+    description: 'Um aplicativo para planejar viagens de carro ou moto, integrando APIs para rotas, pedágios e cálculo de combustível. Ideal para quem quer prever os custos antes de pegar a estrada!',
+    image: '/assets/travel-cost-calculator.png?height=400&width=600',
+    link: 'https://travel-cost-calculator-zeta.vercel.app/'
+  },
+  {
+    title: 'Consulta Pública de CNPJ',
+    category: 'Desenvolvimento',
+    description: 'Um portal moderno, responsivo e acessível para consultar dados de empresas brasileiras pelo número do CNPJ, utilizando a API pública da ReceitaWS.',
+    image: '/assets/portal-consulta-cnpj.png?height=400&width=600',
+    link: 'https://portal-consulta-cnpj.vercel.app/'
+  },
+  {
+    title: 'MM Store',
+    category: 'Desenvolvimento',
+    description: 'Aplicação de e-commerce que integra a Fake Store API como fonte de dados. Com funcionalidades que simulam uma experiência real de compra online.',
+    image: '/assets/mm-store.png?height=400&width=600',
+    link: 'https://portal-consulta-cnpj.vercel.app/'
+  },
+  {
     title: 'Gerador de Currículos',
     category: 'Desenvolvimento',
+    description: 'Um gerador de currículos, onde o usuário pode escolher qual modelo mais lhe agrada, preencher um formulário com os dados para serem anexados no currículo e então efetuar o download do PDF.',
     image: '/assets/resume-generator.png?height=400&width=600',
     link: 'https://resume-generator-rho-seven.vercel.app/'
   },
   {
     title: 'Cardápio Online',
     category: 'Desenvolvimento',
+    description: 'Um cardápio digital que utiliza integração com a API do Whatsapp para envio dos pedidos a hamburgueria. O envio de pedidos funciona apenas no horário definido, impedindo que pedidos sejam feitos antes do estabelecimento estar aberto.',
     image: '/assets/cardapio-online.png?height=400&width=600',
     link: 'https://devmatheusmarques-imperiohamburgueria.vercel.app/'
   },
   {
     title: "Cookin'Up",
     category: 'Desenvolvimento',
+    description: 'Um buscador de receitas para se fazer com ingredientes que encontramos em casa. Possui vínculo com um JSON que fornece as opções de receitas contendo os ingrediente necessários e modo de preparo.',
     image: '/assets/cookin-up.png?height=400&width=600',
     link: 'https://devmatheusmarques-cookin-up.vercel.app/'
   },
   {
-    title: 'Página de Produto',
+    title: 'Memory Game',
     category: 'Desenvolvimento',
-    image: '/assets/anuncio-fone.png?height=400&width=600',
-    link: 'https://devmatheusmarques-website-announcement-headset.vercel.app/'
-  },
-  {
-    title: 'Movies Lib',
-    category: 'Desenvolvimento',
-    image: '/assets/movies-lib.png?height=400&width=600',
-    link: 'https://devmatheusmarques-movies-lib.vercel.app/'
+    description: 'Um pequeno projeto que nasceu de uma necessidade bem especial: ajudar minha mãe a se distrair e exercitar o raciocínio de forma simples e acessível.',
+    image: '/assets/memory-game.png?height=400&width=600',
+    link: 'https://memory-game-iota-coral.vercel.app/'
   },
   {
     title: 'Controle Financeiro',
     category: 'Desenvolvimento',
+    description: 'Página de controle financeiro, onde o usuário pode inserir dados de entrada e saída, de forma que conforme os dados são registrados, é atualizado os campos de informações das finanças.',
     image: '/assets/controle-financeiro.png?height=400&width=600',
     link: 'https://devmatheusmarques-controle-financeiro.vercel.app/'
   },
   {
     title: 'MegManicure',
+    description: 'Design de protótipo de tela para um aplicativo de manicure. Os usuários podem realizar agendamentos e as manicures conseguem agender e verifcar os clientes agendados.',
     category: 'Design',
     image: '/assets/meg-manicure.png?height=400&width=600',
     link: 'https://megmanicure.my.canva.site/'
