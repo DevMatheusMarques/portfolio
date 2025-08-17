@@ -200,6 +200,13 @@ const projects: Project[] = [
     link: 'https://calculator-pro-dmm.vercel.app/signin'
   },
   {
+    title: 'Site Institucional – Designer de Interiores: Beatriz Jardim Santana',
+    category: 'Desenvolvimento',
+    description: 'site moderno e responsivo para a Designer de Interiores Beatriz Jardim Santana, com o objetivo de apresentar seu portfólio de projetos Residenciais e Comerciais de forma elegante e funcional.',
+    image: '/assets/site-institucional-beatriz-jardim-santana.png?height=400&width=600',
+    link: 'https://meuzoom.vercel.app/'
+  },
+  {
     title: 'Hours PJ Tracker',
     category: 'Desenvolvimento',
     description: 'Hours PJ Tracker permite que profissionais autônomos ou terceirizados tenham controle total sobre suas jornadas de trabalho, com filtros inteligentes e exportação de relatórios.',
