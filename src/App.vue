@@ -228,6 +228,13 @@ const projects: Project[] = [
     link: 'https://portal-consulta-cnpj.vercel.app/'
   },
   {
+    title: 'Movie Verse',
+    category: 'Desenvolvimento',
+    description: 'Aplicação web desenvolvida para explorar filmes de forma prática e intuitiva, consumindo dados diretamente da API do The Movie Database (TMDB).',
+    image: '/assets/movie-verse.png?height=400&width=600',
+    link: 'https://movie-verse-cinema-explorer.vercel.app/'
+  },
+  {
     title: 'Gerador de Currículos',
     category: 'Desenvolvimento',
     description: 'Um gerador de currículos, onde o usuário pode escolher qual modelo mais lhe agrada, preencher um formulário com os dados para serem anexados no currículo e então efetuar o download do PDF.',
